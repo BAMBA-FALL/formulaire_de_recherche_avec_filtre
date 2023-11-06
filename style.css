@@ -1,0 +1,60 @@
+/* Style du formulaire */
+
+.formulaire{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+form {
+    width: 300px;
+    margin: 0 auto;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Style des boutons */
+button {
+    background-color: #0074d9;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+ul{
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.resultat {
+    /* Styles par défaut */
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    color: #333;
+    cursor: pointer; /* Ajoute une icône de curseur de main au survol */
+    transition: background-color 0.3s; /* Animation de transition pour le changement de couleur */
+  }
+  
+  /* Styles au survol des éléments trouvés */
+  .resultat:hover {
+    background-color: #0074d9; /* Couleur de fond au survol */
+    color: #fff; /* Couleur du texte au survol */
+  }
+  
+  /* Style de survol pour la classe "resultat-survol" */
+  .resultat-survol {
+    background-color: #0074d9; /* Couleur de fond au survol */
+    color: #fff; /* Couleur du texte au survol */
+  }
+  
